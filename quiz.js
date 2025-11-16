@@ -25,5 +25,6 @@ form.addEventListener("submit", function checkanswer() {
     
     if (isValid) {
         alert("Form submitted successfully!");
+        method = 'POST'
     }
 });
