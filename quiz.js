@@ -7,13 +7,14 @@ form.addEventListener("submit", function checkanswer() {
     const user = document.querySelector("quiz").value;
     const user = document.querySelector("quiz").value;
     const user = document.querySelector("quiz").value;
-    
+    const submit=button = document.querySeletor("quiz-button").value
      
     let isValid = true;
 
     document.querySelector("quiz-error").textContent = "";
     document.querySelector("quiz-error").textContent = "";
     document.querySelector("quiz-error").textContent = "";
+     document.querySelector("button-error").textContent = "";
 
   const value = userAnswer;
     const correctAnswer = 4;
