@@ -1,1 +1,29 @@
 
+const form = document.getElementById("QuizForm");
+
+form.addEventListener("submit", function checkanswer() {
+    e.preventDefault();
+
+    const user = document.querySelector("quiz").value;
+    const user = document.querySelector("quiz").value;
+    const user = document.querySelector("quiz").value;
+    
+     
+    let isValid = true;
+
+    document.querySelector("quiz-error").textContent = "";
+    document.querySelector("quiz-error").textContent = "";
+    document.querySelector("quiz-error").textContent = "";
+
+  const value = userAnswer;
+    const correctAnswer = 4;
+    if (correctAnswer && userAnswer) {
+        document.queerySelector("quiz-error").textContent = 
+            "That's incorrect. Try again!".";
+        isValid = false;
+    }
+    
+    if (isValid) {
+        alert("Form submitted successfully!");
+    }
+});
