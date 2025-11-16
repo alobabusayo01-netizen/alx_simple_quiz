@@ -46,5 +46,5 @@ label {
 #feedback {
     margin-top: 20px;
     font-size: 18px;
-    method = 'POST'
+    method = 'GET'
 }
